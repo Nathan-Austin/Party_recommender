@@ -1,0 +1,18 @@
+party advisor app
+
+scrape/api get: resident advisor/fb events/ eventbrite.com/ allevents/ exberliner/ clubguideberlin website daily for events with names of artists. Filter JSON file for the next 10 days
+extract artist names, location, ticket/price info 
+search spoity/ soundcloud/youtube for  artist names to find the genre of top 10 songs of artist or latest ablum
+import genres/features and create matrix of artist/genre
+This part to be done on the cloud and sent to device upon opening/requesting
+scrape daily and compute new events and add to database
+
+
+extract from spotify api recently played artist/song name and features
+## https://developer.spotify.com/console/get-recently-played/
+API https://developer.spotify.com/documentation/web-api/reference/#endpoint-get-recently-played 
+
+create matrix and train model to find recomendations of top 5/10 features/genres
+
+
+export top feature/genre recomendations to matrix and compare with features from scraped artist data for matches and recommend best place to go with filters for distance, availabily and prices
